@@ -9,35 +9,22 @@ import Braslety from "./Component/Braslety/Braslety";
 import Podveski from "./Component/Podveski/Podveski";
 import Home from "./Component/Home/Home";
 import c from "./Component/Navbar/Navbar.module.css"
+import {Route, Router, Routes} from "react-router-dom";
 
 
 function App() {
-    let component
-    switch (window.location.pathname)  {
-        case "/":
-            component = <Home/>
-            break
-        case "/onas":
-            component = <Onas/>
-            break
-        case "/kolca":
-            component = <Kolca/>
-            break
-        case "/serejki":
-            component = <Serejki/>
-            break
-        case "/braslety":
-            component = <Braslety/>
-            break
-        case "/podveski":
-            component = <Podveski/>
-            break
-    }
   return (
     <>
      <Navbar/>
         <div className={c.container}>
-            {component}
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/onas" element={<Onas/>}/>
+                <Route path="/kolca" element={<Kolca/>}/>
+                <Route path="/serejki" element={<Serejki/>}/>
+                <Route path="/braslety" element={<Braslety/>}/>
+                <Route path="/podveski" element={<Podveski/>}/>
+            </Routes>
         </div>
     </>
   );
