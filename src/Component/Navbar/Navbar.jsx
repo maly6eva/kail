@@ -13,11 +13,22 @@ function Navbar() {
         </div>
 
         <ul className={c.title}>
-            <CustomLink to="/onas" className={c.site}>О нас</CustomLink>
-            <CustomLink to="/kolca" className={c.site}>Кольца</CustomLink>
-            <CustomLink to="/serejki" className={c.site}>Сережки</CustomLink>
-            <CustomLink to="/braslety" className={c.site}>Браслеты</CustomLink>
-            <CustomLink to="/podveski" className={c.site}>Подвески</CustomLink>
+            <li className={c.sites}>
+                <CustomLink to="/onas" className={c.site}>О нас</CustomLink>
+            </li>
+            <li className={c.sites}>
+                <CustomLink to="/kolca" className={c.site}>Кольца</CustomLink>
+            </li>
+           <li className={c.sites}>
+               <CustomLink to="/serejki" className={c.site}>Сережки</CustomLink>
+           </li>
+            <li className={c.sites}>
+                <CustomLink to="/braslety" className={c.site}>Браслеты</CustomLink>
+            </li>
+            <li className={c.sites}>
+                <CustomLink to="/podveski" className={c.site}>Подвески</CustomLink>
+            </li>
+
         </ul>
     </nav>
 }
