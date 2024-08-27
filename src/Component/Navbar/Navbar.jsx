@@ -2,6 +2,7 @@ import c from "./Navbar.module.css"
 
 
 function Navbar() {
+
     return <nav className={c.nav}>
         <div className={c.imag}>
             <img className={c.images}
@@ -11,23 +12,27 @@ function Navbar() {
         </div>
 
         <ul className={c.title}>
-            <li className={c.sites}>
-                <a href="/onas" className={c.site}>О нас</a>
-            </li>
-            <li className={c.sites}>
-                <a href="/kolca" className={c.site}>Кольца</a>
-            </li>
-            <li className={c.sites}>
-                <a href="/serejki" className={c.site}>Сережки</a>
-            </li>
-            <li className={c.sites}>
-                <a href="/braslety" className={c.site}>Браслеты</a>
-            </li>
-            <li className={c.sites}>
-                <a href="/podveski" className={c.site}>Подвески</a>
-            </li>
+            <CustomLink href="/onas" className={c.site}>О нас</CustomLink>
+            <CustomLink href="/kolca" className={c.site}>Кольца</CustomLink>
+            <CustomLink href="/serejki" className={c.site}>Сережки</CustomLink>
+            <CustomLink href="/braslety" className={c.site}>Браслеты</CustomLink>
+            <CustomLink href="/onas" className={c.site}>О нас</CustomLink>
+            <CustomLink href="/podveski" className={c.site}>Подвески</CustomLink>
         </ul>
     </nav>
 }
+
+
+function CustomLink({ href, children, ...props}) {
+    const path = window.location.pathname
+    return (
+        <li className={path === href ? "active" : "" }>
+            <a href={href} {...props}>{children}</a>
+        </li>
+    )
+}
+
+
+
 
 export default Navbar;
