@@ -10,6 +10,7 @@ import Podveski from "./Component/Podveski/Podveski";
 import Home from "./Component/Home/Home";
 import c from "./Component/Navbar/Navbar.module.css"
 import {Route, Router, Routes} from "react-router-dom";
+import Footer from "./Component/Footer/Footer";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/podveski" element={<Podveski/>}/>
             </Routes>
         </div>
+        <Footer/>
     </>
   );
 }
