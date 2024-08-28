@@ -1,11 +1,10 @@
-
-
+import Onasss from "./Onasss";
 
 
 function Onas() {
     return (
         <>
-            <h1>Onas</h1>
+            <Onasss/>
         </>
     )
 }
