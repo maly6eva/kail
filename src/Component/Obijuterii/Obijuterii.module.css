@@ -1,7 +1,11 @@
-.cont {
-    
+.hih{
+    font-size: 2.2rem;
 }
 
+.pad {
+    display: flex;
+    justify-content: right;
+}
 
 
 
