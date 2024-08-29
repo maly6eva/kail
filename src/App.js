@@ -11,6 +11,8 @@ import Home from "./Component/Home/Home";
 import c from "./Component/Navbar/Navbar.module.css"
 import {Route, Router, Routes} from "react-router-dom";
 import Footer from "./Component/Footer/Footer";
+import Nashistati from "./Component/Nashistati/Nashistati";
+import Obijuterii from "./Component/Obijuterii/Obijuterii";
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
                 <Route path="/serejki" element={<Serejki/>}/>
                 <Route path="/braslety" element={<Braslety/>}/>
                 <Route path="/podveski" element={<Podveski/>}/>
+                <Route path="/nashistati" element={<Nashistati/>}/>
+                <Route path="/obijuterii" element={<Obijuterii/>}/>
             </Routes>
         </div>
         <Footer/>

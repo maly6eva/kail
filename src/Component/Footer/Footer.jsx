@@ -14,10 +14,10 @@ function Footer() {
 
         <ul className={c.title}>
             <li className={c.sites}>
-                <CustomLink to="/onas" className={c.site}>наши статьи</CustomLink>
+                <CustomLink to="/nashistati" className={c.site}>Связаться с нами</CustomLink>
             </li>
             <li className={c.sites}>
-                <CustomLink to="/onas" className={c.site}>информация</CustomLink>
+                <CustomLink to="/obijuterii" className={c.site}>О бижутерии</CustomLink>
             </li>
 
             <div>
@@ -44,20 +44,6 @@ function Footer() {
                          alt=""/>
                 </a>
             </div>
-
-
-            {/* <li className={c.sites}>*/}
-            {/*     <CustomLink to="/kolca" className={c.site}>Кольца</CustomLink>*/}
-            {/* </li>*/}
-            {/*<li className={c.sites}>*/}
-            {/*    <CustomLink to="/serejki" className={c.site}>Сережки</CustomLink>*/}
-            {/*</li>*/}
-            {/* <li className={c.sites}>*/}
-            {/*     <CustomLink to="/braslety" className={c.site}>Браслеты</CustomLink>*/}
-            {/* </li>*/}
-            {/* <li className={c.sites}>*/}
-            {/*     <CustomLink to="/podveski" className={c.site}>Подвески</CustomLink>*/}
-            {/* </li>*/}
 
         </ul>
     </nav>

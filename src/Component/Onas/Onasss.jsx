@@ -11,6 +11,9 @@ function Onasss() {
                     <div className={c.coord}>
                         <p className={c.adrez}> адрес: г.Минск ул.Пономаренко 58/61</p>
                         <a className={c.tell} href="tel:375292177690">+375 29 217 76 90</a>
+                        <p className={c.vrema}>Время работы: Пн.-Пт. 10:00 - 21:00
+                           </p>
+                        <p className={c.vrema}> Cб. 10:00 - 16:00 Воскр. - выходной</p>
                     </div>
                 </div>
 
