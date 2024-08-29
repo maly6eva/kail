@@ -37,11 +37,12 @@
 }
 
 .imag {
-display: flex;gap: 80px;
+display: flex;
+    gap: 80px;
 }
 .images{
     height: 80px;
-    width: 150px;
+    width: 90px;
 }
 
 .site{
