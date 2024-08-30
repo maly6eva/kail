@@ -1,0 +1,33 @@
+.con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coord{
+    padding: 0 60px 0 0;
+    text-align: left;
+}
+
+.tell {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+.bij {
+    padding: 0 0 0 260px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #f1c964;
+}
+
+.histor{
+    font-weight: normal;
+    font-size: 30px;
+    text-align: left;
+    padding: 0 120px 0 120px;
+
+}
+.cont {
+
+}
+

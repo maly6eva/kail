@@ -13,6 +13,7 @@ import {Route, Router, Routes} from "react-router-dom";
 import Footer from "./Component/Footer/Footer";
 import Nashistati from "./Component/Nashistati/Nashistati";
 import Obijuterii from "./Component/Obijuterii/Obijuterii";
+import MyCard from "./Component/MyCard/MyCard";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
                 <Route path="/obijuterii" element={<Obijuterii/>}/>
             </Routes>
         </div>
+        <MyCard/>
         <Footer/>
     </>
   );
