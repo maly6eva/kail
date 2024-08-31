@@ -1,13 +1,5 @@
 import c from "./Braslety.module.css"
-import Kolco01 from "../Kolca/CardKolca/Kolco01";
-import Kolco02 from "../Kolca/CardKolca/Kolco02";
-import Kolco03 from "../Kolca/CardKolca/Kolco03";
-import Kolco04 from "../Kolca/CardKolca/Kolco04";
-import Kolco05 from "../Kolca/CardKolca/Kolco05";
-import Kolco06 from "../Kolca/CardKolca/Kolco06";
-import Kolco07 from "../Kolca/CardKolca/Kolco07";
-import Kolco08 from "../Kolca/CardKolca/Kolco08";
-import Kolco09 from "../Kolca/CardKolca/Kolco09";
+
 import Braslety07 from "./CardBraslety/Braslety07";
 import Braslety09 from "./CardBraslety/Braslety09";
 import Braslety08 from "./CardBraslety/Braslety08";

@@ -1,13 +1,5 @@
-import c from "../Kolca/Kolca.module.css";
-import Kolco01 from "../Kolca/CardKolca/Kolco01";
-import Kolco02 from "../Kolca/CardKolca/Kolco02";
-import Kolco03 from "../Kolca/CardKolca/Kolco03";
-import Kolco04 from "../Kolca/CardKolca/Kolco04";
-import Kolco05 from "../Kolca/CardKolca/Kolco05";
-import Kolco06 from "../Kolca/CardKolca/Kolco06";
-import Kolco07 from "../Kolca/CardKolca/Kolco07";
-import Kolco08 from "../Kolca/CardKolca/Kolco08";
-import Kolco09 from "../Kolca/CardKolca/Kolco09";
+import c from "./Podvesk.module.css";
+
 import Podveski01 from "./CardPodveski/Podveski01";
 import Podveski02 from "./CardPodveski/Podveski02";
 import Podveski09 from "./CardPodveski/Podveski09";
@@ -22,7 +14,7 @@ import Podveski03 from "./CardPodveski/Podveski03";
 function Podveski() {
     return (
         <>
-            <div className={c.kolca}>
+            <div className={c.podveski}>
                 <Podveski01 name="Обручальные кольца «Вулканическая лава»" price={3250}/>
                 <Podveski02 name="Комбинированные обручальные кольца: день-ночь" price={7250}/>
                 <Podveski03 name="Комбинированные обручальные кольца: день-ночь" price={7250}/>
