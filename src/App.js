@@ -16,8 +16,11 @@ import Obijuterii from "./Component/Obijuterii/Obijuterii";
 import MyCard from "./Component/MyCard/MyCard";
 
 
-function App() {
-  return (
+function App(props) {
+
+
+
+    return (
     <>
      <Navbar/>
         <div className={c.container}>

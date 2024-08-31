@@ -3,7 +3,7 @@ import {useState} from 'react'
 
 import c from "./style.module.css"
 
-function Kolco01(props) {
+function Kolco05(props) {
     const [kolca, setKolca] = useState(null)
 
     function handleClick(props) {
@@ -22,4 +22,4 @@ function Kolco01(props) {
     )
 }
 
-export default Kolco01;
+export default Kolco05;

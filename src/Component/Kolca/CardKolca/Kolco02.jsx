@@ -3,7 +3,7 @@ import {useState} from 'react'
 
 import c from "./style.module.css"
 
-function Kolco01(props) {
+function Kolco02(props) {
     const [kolca, setKolca] = useState(null)
 
     function handleClick(props) {
@@ -13,7 +13,7 @@ function Kolco01(props) {
     return (
         <>
             <div className={c.content}>
-                <img className={c.imge} src="https://silverbeard.ru/wp-content/uploads/2020/12/Obruchalnye-koltsa-Vulkanicheskaya-lava.jpg" alt={'Photo'}/>
+                <img className={c.imge} src="https://silverbeard.ru/wp-content/uploads/2017/07/DSC04164_kv.jpg" alt={'Photo'}/>
                 <h2 className={c.naz}>{props.name}</h2>
                 <h2 className={c.price}>{props.price}p.</h2>
                 <button className={c.butt} onClick={handleClick}>Купить{kolca}</button>
@@ -22,4 +22,4 @@ function Kolco01(props) {
     )
 }
 
-export default Kolco01;
+export default Kolco02;
