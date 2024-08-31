@@ -16,6 +16,7 @@ function Bijuterik(props) {
 
 
                 <img src="https://otvet.imgsmail.ru/download/aa3e49651ea6fb4cf63b600a221ad1d4_h-44219.jpg" alt=""/>
+                <img src="https://cdn.pixabay.com/photo/2014/02/07/11/31/flowers-260894_1280.jpg" alt=""/>
             </div>
 
 

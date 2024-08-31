@@ -13,7 +13,7 @@ function Podveski01(props) {
     return (
         <>
             <div className={c.content}>
-                <img className={c.imge} src="https://silverbeard.ru/wp-content/uploads/2020/12/Obruchalnye-koltsa-Vulkanicheskaya-lava.jpg" alt={'Photo'}/>
+                <img className={c.imge} src="https://krasavica.info/uploads/posts/2022-03/1646540302_2-krasavica-info-p-brilliantovoe-kole-devushka-krasivo-foto-2.jpg" alt={'Photo'}/>
                 <h2 className={c.naz}>{props.name}</h2>
                 <h2 className={c.price}>{props.price}p.</h2>
                 <button className={c.butt} onClick={handleClick}>Купить{kolca}</button>
