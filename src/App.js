@@ -17,9 +17,6 @@ import MyCard from "./Component/MyCard/MyCard";
 
 
 function App(props) {
-
-
-
     return (
     <>
      <Navbar/>
